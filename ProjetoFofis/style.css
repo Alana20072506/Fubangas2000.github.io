@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f0da; /* Light green background */
+    overflow: hidden; /* Hide the leaf overflow */
+}
+
+.container {
+    position: relative;
+    width: 600px; /* Adjusted width */
+    height: 400px; /* Adjusted height */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 150px; /* Adjust logo size */
+    height: auto;
+}
+
+.form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded input fields */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Background Decorations (Leaves, Swirls, Dots) */
+.background-decorations {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.leaf {
+    position: absolute;
+    background-color: rgba(190, 220, 190, 0.5); /* Light green leaves */
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.leaf-1 {
+    width: 80px;
+    height: 150px;
+    top: 50px;
+    left: 20px;
+    transform: rotate(-20deg);
+}
+
+.leaf-2 {
+    width: 120px;
+    height: 60px;
+    bottom: 50px;
+    right: 20px;
+    transform: rotate(15deg);
+}
+
+.swirl {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(240, 150, 150, 0.5); /* Light red swirl */
+    border-radius: 50%;
+    top: 30px;
+    right: 100px;
+}
+
+.dots {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(100, 100, 100, 0.5); /* Darker gray dots */
+    border-radius: 50%;
+}
+
+.dots-1 {
+    bottom: 20px;
+    left: 80px;
+}
+
+/* Add more leaf, swirl, and dot elements as needed,
+   adjusting their position, size, and styling.
+*/
